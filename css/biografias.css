@@ -1,21 +1,34 @@
 body{
 	margin: 40px;
 	color:  #555555;
+
+}
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.resumen-bio{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px:
 }
 .photo-bio{
-	top: 0px;
-	height: 400px;
-	position: relative;
-	width: 500px;
+		width: auto;
+    max-width: 50%;
+    height: auto;
+		display: block;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
 }
 .container-bio{
-	width: 700px;
-	position: relative;
-	left: 540px;
-	top: -410px;
+	text-align: center;
+	margin: 50px;
+
 }
 .links-to-sn{
-	position: relative;
-  left: 840px;
-  top: -400px;
+	display: block;
+	margin: 50px;
+
 }
