@@ -1,0 +1,26 @@
+body {
+  font-family:"Montserrat", "Verdana";
+  font-size: 15px;
+  background-color: rgba(33, 173, 177, 0.17);
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  display: block;
+  margin-bottom: 70px;
+}
+
+img {
+  position: relative;
+}
+
+p {
+  display: block;
+}
+
+.nameRol {
+  color: #555555;
+}
