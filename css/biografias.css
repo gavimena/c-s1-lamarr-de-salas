@@ -1,0 +1,21 @@
+body{
+	margin: 40px;
+	color:  #555555;
+}
+.photo-bio{
+	top: 0px;
+	height: 400px;
+	position: relative;
+	width: 500px;
+}
+.container-bio{
+	width: 700px;
+	position: relative;
+	left: 540px;
+	top: -410px;
+}
+.links-to-sn{
+	position: relative;
+  left: 840px;
+  top: -400px;
+}
