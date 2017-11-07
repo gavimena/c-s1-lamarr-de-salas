@@ -3,7 +3,16 @@ body{
 	color:  #555555;
 
 }
+body {
+  font-family:"Montserrat", "Verdana";
+  font-size: 15px;
+  background-color: rgba(33, 173, 177, 0.17);
+}
 h1{
+	display: block;
+	margin-bottom: 50px;
+}
+h1, h2, h3 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -22,13 +31,18 @@ h1{
 		margin-left: auto;
 		margin-right: auto;
 }
-.container-bio{
+.container-bio {
 	text-align: center;
 	margin: 50px;
-
+}
+.roles {
+	margin: 50px;
 }
 .links-to-sn{
 	display: block;
 	margin: 50px;
+
+}
+li {
 
 }
