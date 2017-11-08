@@ -1,8 +1,13 @@
-.cabecera-nombre {
+body {
+margin: 0;
+padding: 0;
+}
 
+/*CABECERA*/
+
+.cabecera-nombre {
 	font-size: 40px;
-	padding-bottom: 30px;
-vertical-align: middle;
+padding: 0;
 }
 .introduccion{
 	top:50px;
@@ -13,40 +18,55 @@ margin-bottom: 40px;
   text-align: center;
 	  background:url('../images/prueba.jpg');
 background-size: cover;
-height: 140px;
-margin-top: 55px;
+height: 180px;
+margin-top: 45px;
 display: flex;
 justify-content: center;
 align-content: center;
 flex-direction: column;
 }
 .menu-principal{
-height: 50px;
 position: fixed;
 z-index: 10000;
 width: 100%;
-top: 0;
+top: -18px;
 background: white;
-
+display: inline-block;
+padding-top: 16px;
 }
 .menu-principal ul{
 list-style-type: none;
 text-align: center;
 float:right;
-margin-right: 10px;
 }
 .menu-principal li {
-display: inline;
+display: inline-block;
 text-align: center;
 margin: 0 10px 0 0;
 }
 .menu-principal li a {
 color:grey;
 text-decoration: none;
+display: block;
+}
+.menu-principal li ul {
+display: none;
+position: absolute;
+padding: 1%;
+}
+.menu-principal li:hover ul{
+display:block;
+}
+.menu-principal li ul li{
+display: block;
+background-color: white;
+padding: 4px;
 }
 .menu-principal li a:hover {
 color: blue;
 }
+
+/*IMÁGENES ENLAZADAS*/
 
 
 .resumen {
