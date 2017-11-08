@@ -74,25 +74,25 @@ color: blue;
 	width: 200px;
 	text-align: center;
 }
+
 .line {
 	display: inline-block;
+	position: relative;
 	width: 25%;
 	margin-bottom: 10px;
-	/*float: right;*/
-	border: black;
+	margin-left: 100px;
+	margin-right: auto;
 
-}
-/*.full_image{
-	display: table;
-}*/
 img {
 	width: 200px;
-	height: 150px;
-	border: 50;
+	height: 200px;
+	border-radius: 50%;
+	border-style: groove;
 }
 
-.line .line2{
-
+h4{
+	text-decoration: underline;
+	margin-bottom: 0;
 }
 
 .parrafos {
@@ -108,4 +108,16 @@ hr {
 	margin-bottom: 0.5em;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.secondline {
+	position: relative;
+	left: 65%;
+	display: inline;
+}
+
+.lastphoto {
+	position: relative;
+	display: inline;
+	margin-left: 50%;
 }
