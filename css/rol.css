@@ -6,21 +6,15 @@ body {
 
 h1 {
   text-align: center;
-}
-
-div {
-  display: block;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 img {
-  position: relative;
-}
-
-p {
-  display: block;
+    display: block;
+    margin-left: 100px;
 }
 
 .nameRol {
   color: #555555;
+  margin-bottom: 70px;
 }
