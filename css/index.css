@@ -4,37 +4,33 @@ padding: 0;
 }
 
 /*CABECERA*/
-.cabecera-nombre {
-	font-size: 40px;
-padding: 0;
-}
-.introduccion{
-	top:50px;
-text-align: center;
-margin-bottom: 40px;
-}
 .cabecera-full  {
 text-align: center;
-margin-top: 50px;
+margin-top: 3em;
 }
 .logo-cabecera {
 width: 50%;
 height: auto;
 }
-
 .menu-principal{
 position: fixed;
 z-index: 10000;
 width: 100%;
 top: -18px;
 background: white;
-display: inline-block;
-padding-top: 16px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 1em;
+}
+.minilogo {
+	padding-left: 0.25em;
+}
+.primera-lista {
+	padding-left: 0.3em;
 }
 .menu-principal ul{
 list-style-type: none;
-text-align: center;
-float:right;
 }
 .menu-principal li {
 display: inline-block;
@@ -63,6 +59,13 @@ padding: 4px;
 color: #995B5B;
 font-weight:bold;
 }
+.introduccion{
+top:50px;
+text-align: center;
+margin-bottom: 1.5em;
+margin-left: 15%;
+margin-right: 15%;
+}
 .introduccion a {
 text-decoration: none;
 color:black;
@@ -70,9 +73,24 @@ color:black;
 .introduccion a:hover {
 text-decoration: none;
 color: #650707;
-
 }
-
+.minilogo:hover {
+	opacity: 0.5;
+}
+@media all and (max-width:371px) {
+	.cabecera-full {
+		margin-top: 68px;
+	}
+	.menu-principal {
+		padding-top:0.7em;
+	}
+	.primera-lista {
+		padding-left: 0.3em;
+	}
+	.minilogo {
+		padding-left: 0.7em
+	}
+}
 
 /*SECCIÓN DE IMÁGENES 10/11*/
 
