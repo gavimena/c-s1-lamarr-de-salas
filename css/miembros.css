@@ -15,7 +15,7 @@ body {
 	right: 0;
 }
 
-h1, h2, h3 {
+h1, h2 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -25,19 +25,30 @@ p, li {
 	text-align: justify;
 }
 
-.flexContainer{
+.container {
+	margin-top: 70px;
+	display: flex;
 	background-color: #640707;
 	color: #f0f0ee;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	flex-wrap: nowrap;
-	height: 500px;
-	margin: 0;
-	padding: 0;
+	height: 450px;
 }
 
-.flexItem {
+.flexContainerTexto {
+	margin-left: 90px;
+	margin-top: 150px;
+	align-items: center;
+	width: 40%;
+	height: 170px;
+	background-color: rgba(240, 240, 238, 0.4);
+	color: #f0f0ee;
+}
+
+.flexContainerPhoto {
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 50%;
+	height: 200px;
+	justify-content: flex-end;
 
 }
 
@@ -49,29 +60,31 @@ p, li {
 
 }
 .photo-bio {
-		width: auto;
     max-width: 70%;
     height: auto;
 		display: block;
-		margin-top: 40px;
-		margin-left: auto;
-		margin-right: auto;
+		margin-top: 65px;
+    margin-left: auto;
+		margin-right: 50px;
 }
 
 .container-bio {
 	text-align: center;
-	margin: 50px;
+	margin: 4% 7% 3% 13%;
+	width: 70%;
+	height: 250px;
+	overflow-y: auto;
+	padding: 10px;
+	border: dotted 2px;
+	border-color: #640707;
 }
 
 .roles {
-	margin: 50px;
+	margin-left: 10%;
+	margin-right: 13%;
 }
 
 .links-to-sn{
 	display: block;
 	margin: 50px;
-}
-
-#aida {
-	/*position: relative;*/
 }
