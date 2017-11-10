@@ -135,6 +135,8 @@ color: #650707;
 }
 /*Colores paleta 640707; FFFBCB; FFB2C9; 7AB9CC; 74A4B2*/
 
+/* Última sección*/
+
 .section-2 {
 color:#555555;
 margin-right: 30px;
@@ -143,8 +145,7 @@ margin-top: 20px;
 background-color: pink;
 padding: 30px;
 }
-
-hr {
+.line-section-2 {
 	border-color: #FFB2C9;
 	border-style: solid;
 	border-style: 1px;
@@ -155,36 +156,31 @@ hr {
 	margin-right: auto;
 }
 
+/*Footer*/
 footer {
 	display: inline-flex;
 	background-color: rgb(116, 164, 178);
 	position: relative;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	margin-top: 20px;
 	width: 100%;
 	height: 150px;
 	left: 0px;
 	bottom: 0px;
 }
-.logo-cell {
-	background-color: white;
+
+/* (Quitado del HTML)  .logo-nuestro-cell {
 	display: inline-flex;
 	width: 70px;
-	height: auto;
 }
 .logo-nuestro {
 	width: 100%;
 	height: auto;
-}
+}*/
 .link-footer {
 	display: inline-flex;
 	color:#555555;
-	width: 100%;
-	height: auto;
-	position: relative;
-}
-.logo-adalab {
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -193,15 +189,21 @@ footer {
 	display: inline-flex;
 	text-align: center;
 }
-
-.secondline {
-	position: relative;
-	left: 65%;
-	display: inline;
+.logo-adalab-cell {
+	background-color: white;
+	display: inline-flex;
+	width: 10%;
+	height: auto;
 }
-
-.lastphoto {
-	position: relative;
-	display: inline;
-	margin-left: 50%;
+.logo-adalab {
+	width: 100%;
+	height: auto;
+}
+.line-footer {
+	border-color: #FFB2C9;
+	border-style: solid;
+	border-style: 4px;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
