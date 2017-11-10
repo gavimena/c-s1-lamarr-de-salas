@@ -78,39 +78,42 @@ color: #650707;
 
 .photos-section {
 	height: auto;
-	/*border-radius: 10px;
-	background-color: #FFFBCB;
-	padding: 0 20px;
-	box-shadow: 2px 1px 1px #FFB2C9;
-	color: #640707;
-	/*align-items: center;
-	justify-content:space-around;*/
 }
 
 .person {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	border-radius: 10px;
 	padding: 0 20px;
 	background-color: #FFB29C;
 	box-shadow: 2px 1px 1px #FFB2C9;
 	color: #640707;
-	align-items: center;
-	justify-content: space-around;
 	list-style: none;
+	margin: 0;
 
+}
+
+@media all and (min-width: 730px) {
+    .person {
+max-width: 690px;
+margin: 0 auto;
+    }
+}
+
+@media all and (min-width: 1190px) {
+    .person {
+max-width: 100%;
+    }
 }
 
 .per-flex {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 30px 15px;
+	width: 200px; /*ancho de la imagen*/
+	display: block; /* solo movil*/
+	text-align: center;
 }
-.per-flex + .per-flex {
-		display: table-cell;
-    vertical-align: top;
-    padding: 0 10px;
 
-}
 
 .small-pic {
 	height: 200px;
@@ -127,12 +130,10 @@ color: #650707;
 	color: #555555;
 	height: 200px;
 	width: 150px;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.elemento + .elemento{ /*cuando haya un elemenyo dsps de otro*/
-	margin-left: 30px;
-}
 /*Colores paleta 640707; FFFBCB; FFB2C9; 7AB9CC; 74A4B2*/
 
 .section-2 {
