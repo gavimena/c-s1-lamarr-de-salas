@@ -81,10 +81,13 @@ color: #650707;
 }
 @media all and (max-width:371px) {
 	.cabecera-full {
-		margin-top: 68px;
+		margin-top: 65px;
 	}
 	.minilogo {
-		padding-left: 0.7em
+		padding-left: 9px;
+	}
+	.primera-lista {
+		margin-bottom: 8px;
 	}
 }
 
