@@ -68,14 +68,18 @@ p, li {
 .roles {
 	margin: 4% 7% 3% 13%;
 	width: 70%;
-	height: 250px;
 	padding: 10px;
 }
 
 .links-to-sn {
 	display: flex;
 	justify-content: center;
-	padding: 50px;
+	/*padding: 50px;*/
+	/*position: relative;*/
+}
+
+.link {
+	/*position: absolute;*/
 }
 
 .resumenBio {
