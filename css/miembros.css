@@ -74,12 +74,10 @@ p, li {
 .links-to-sn {
 	display: flex;
 	justify-content: center;
-	/*padding: 50px;*/
-	/*position: relative;*/
 }
 
 .link {
-	/*position: absolute;*/
+	
 }
 
 .resumenBio {
