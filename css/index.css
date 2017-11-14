@@ -200,7 +200,15 @@ padding-bottom: 5px;
 }
 .list-footer li {
 	margin-left: 0px;
-	color: white;
+}
+.list-footer li a {
+color: white;
+text-decoration: none;
+display: block;
+}
+.list-footer li a:hover {
+color: #995B5B;
+font-weight:bold;
 }
 .logo-adalab-cell {
 	background-color: white;
