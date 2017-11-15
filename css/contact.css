@@ -1,0 +1,25 @@
+.contact-section{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.form-contact{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.boton{
+	background-color: #CA7173;
+	color: #fff;
+	padding: 0 0.8em;
+	border-radius: 0.33em;
+}
+input[type='submit']{
+	font: inherit;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+  outline: 0;
+	line-height: 1.8;
+}

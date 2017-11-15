@@ -33,23 +33,31 @@
 			</div>
 	</header>
 	<main>
-		<div class="section">
-			<p class="text">Estaremos encantadas de recibir noticias tuyas, rellena nuestro formuario y nos pondremos en contacto. Gracias.</p>
-			<div class="form">
-				<form action="/signup" method="post">
-					<label for="Nombre">Nombre</label>
-					<input id="Nombre" type="text" name="firstname">
-					<label for="Apellidos">Apellidos</label>
-					<input id="Apellidos" type="text" name="lastname">
-					<label for="email">Correo Electrónico</label>
-					<input id="email" type="email">
-					<label for="Telefono">Telefono</label>
-					<input id="Telefono" type="tel">
-					<label for="Mensaje">Mensaje</label>
-					<textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
-					<input class="submit" type="submit" value="ENVIAR">
-				</form>
+		<div class="contact-section">
+			<div class="contact-introduction">
+				<h1>Contacta con nosotras</h1>
+				<p class="text">Estaremos encantadas de recibir noticias tuyas. Rellena nuestro formulario y nos pondremos en contacto contigo. Gracias.</p>
 			</div>
+				<div class="form">
+					<form class="form-contact" action="form-signup" method="post">
+						<label for="nombre">Nombre*</label>
+						<input id="nombre" type="text" name="firstname" required>
+
+						<label for="apellidos">Apellidos*</label>
+						<input id="apellidos" type="text" name="lastname" required>
+
+						<label for="email">Correo Electrónico*</label>
+						<input id="email" type="email" required>
+
+						<label for="telefono">Teléfono*</label>
+						<input id="telefono" type="tel" required>
+
+						<label for="mensaje">Mensaje</label>
+						<textarea name="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+						<input class="boton" type="submit" value="ENVIAR">
+					</form>
+				</div>
+
 		</div>
 	</main>
 
