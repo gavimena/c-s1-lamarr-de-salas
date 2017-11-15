@@ -1,17 +1,33 @@
-
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+font-size: 18px;
+}
+main {
+	flex: 1;
+}
+.section-title-form{
+color: #CA7173;
+}
 .contact-section{
-	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+
 }
 .contact-introduction{
-	text-align: center;
+text-align: center;
 }
 .form-contact{
-	padding: 20px;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.nombre-part, .apellido-part, .correo-part, .movil-part, .mensaje-part, .boton{
+	margin:10px 0;
 }
 .boton{
 	background-color: #CA7173;
@@ -27,12 +43,4 @@ input[type='submit']{
   outline: 0;
 	line-height: 1.8;
 
-}
-body {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-main {
-	flex: 1;
 }
