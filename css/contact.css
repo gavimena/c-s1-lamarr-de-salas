@@ -3,6 +3,9 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.contact-introduction{
+	text-align: center;
+}
 .form-contact{
 	padding: 20px;
 	display: flex;
