@@ -9,6 +9,7 @@ color: #2E2B2A;
 .cabecera-full  {
 text-align: center;
 margin-top: 3em;
+background-color: #fff;
 }
 .logo-cabecera {
 width: 50%;
@@ -113,6 +114,9 @@ color: #650707;
 	margin: 0;
 
 }
+.resumen h4{
+color: #CA7173;
+}
 
 @media all and (min-width: 730px) {
     .person {
@@ -183,6 +187,9 @@ padding-bottom: 5px;
 	display: block;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+}
+.section-2-subtitle{
+color:#CA7173;
 }
 
 /*Footer*/
