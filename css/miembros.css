@@ -90,7 +90,7 @@ p, li {
 @media all and (max-width:850px) {
 	.container {
 		display: flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		flex-direction: column-reverse;
 		background-color: #640707;
 		color: #f0f0ee;
@@ -102,4 +102,13 @@ p, li {
 	p {
 		font-size: .9em;
 	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.flexContainerText {
+		width: 350px;
+	}
+
 }
