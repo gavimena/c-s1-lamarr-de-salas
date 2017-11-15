@@ -3,7 +3,9 @@ body {
   font-size: 18px;
 	background-color: #f0f0ee;
 	color:#000;
+	margin:0;
 	margin-top: 90px;
+	box-sizing: border-box;
 }
 
 /*title header*/
@@ -40,6 +42,7 @@ p, li {
 	background-color: #640707;
 	color: #f0f0ee;
 	height: 600px;
+	width: 100%;
 	align-items: center;
 	justify-content: space-around;
 	border-radius: 4px;
@@ -67,6 +70,7 @@ p, li {
 
 .photo-bio {
     width: 90%;
+		padding: 5%;
 }
 
 .roles {
@@ -89,14 +93,14 @@ p, li {
 
 @media all and (max-width:850px) {
 	.container {
-		display: flex;
-		flex-wrap: wrap;
+		/*display: flex;
+		flex-wrap: wrap;*/
 		flex-direction: column-reverse;
-		background-color: #640707;
+		/*background-color: #640707;
 		color: #f0f0ee;
 		height: 600px;
 		align-items: center;
-		border-radius: 4px;
+		border-radius: 4px;*/
 	}
 
 	p {
@@ -110,5 +114,9 @@ p, li {
 	.flexContainerText {
 		width: 350px;
 	}
+
+	.container-bio {
+		text-align: center;
+		margin: 4% 7% 3% 7%;
 
 }
