@@ -8,15 +8,13 @@ background: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
-<<<<<<< HEAD
-
-=======
->>>>>>> 34bff5a6a4f7938427f3a0d3aab3c7070eceab00
 }
+
 .minilogo {
 	padding-left: 3.2px;
 	padding-top: 5.75px;
 }
+
 .minilogo:hover {
 	opacity: 0.5;
 }
@@ -88,19 +86,6 @@ font-weight:bold;
 	}
 }
 
-
-/*ANTIGUA CABECERA
-title header
-.fixedTitle {
-	width: 100%;
-	height: 90px;
-	background-color: #f0f0ee;
-	color: #000;
-	position: fixed;
-	top: 0;
-	right: 0;
-	display: flex;
-}*/
 h1, h2 {
 	margin-left: auto;
 	margin-right: auto;
@@ -133,7 +118,6 @@ p, li {
 /*text container*/
 .flexContainerText {
 	background-color: rgba(240, 240, 238, 0.4);
-	/*color: #f0f0ee;*/
 	width: 450px;
 	border-radius: 4px;
 }
@@ -148,6 +132,10 @@ p, li {
 	padding: 10px;
 	border: solid 2px;
 	border-color: #ca7173;
+}
+
+.container-bio p {
+	margin: 14px;
 }
 
 .photo-bio {
@@ -235,15 +223,8 @@ font-weight:bold;
 <<<<<<< HEAD
 }*/
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 9296b13a76dc3355e11267d8979c9f866a10faf3
-	.container-bio {
-=======
-}
 .container-bio {
->>>>>>> 61899bbdeae31e86dc0146aa548138e7f4adda91
 		text-align: center;
-		margin: 4% 7% 3% 7%;
+		/*margin: 4% 7% 3% 7%;*/
 	}
