@@ -8,7 +8,7 @@ color: #2E2B2A;
 /*CABECERA*/
 .cabecera-full  {
 text-align: center;
-margin-top: 3em;
+margin-top:3em;
 background-color: #fff;
 }
 .logo-cabecera {
@@ -20,12 +20,11 @@ padding-top: 2px;
 position: fixed;
 z-index: 10000;
 width: 100%;
-top: -18px;
+top: 0;
 background: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding-top: 16px;
 }
 .minilogo {
 	padding-left: 3.2px;
@@ -67,7 +66,7 @@ font-weight:bold;
 .introduccion{
 color: #2E2B2A;
 top:50px;
-text-align: center;
+text-align: justify;
 margin-bottom: 1.5em;
 margin-left: 15%;
 margin-right: 15%;
@@ -85,7 +84,7 @@ color: #650707;
 }
 @media all and (max-width:371px) {
 	.cabecera-full {
-		margin-top: 65px;
+		margin-top: 60px;
 	}
 	.minilogo {
 		padding-left: 9px;

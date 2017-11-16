@@ -4,11 +4,95 @@ body {
 	background-color: #f0f0ee;
 	color:#000;
 	margin:0;
-	margin-top: 90px;
 	box-sizing: border-box;
 }
+/*CABECERA FIJA*/
+.menu-principal{
+position: fixed;
+z-index: 10000;
+width: 100%;
+top: 0;
+background: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
 
-/*title header*/
+}
+.minilogo {
+	padding-left: 3.2px;
+	padding-top: 5.75px;
+}
+.minilogo:hover {
+	opacity: 0.5;
+}
+.primera-lista {
+	padding-left: 0.3em;
+}
+.palabraequipo {
+	font-size: 18px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+.menu-principal ul{
+list-style-type: none;
+}
+.menu-principal li {
+display: inline-block;
+text-align: center;
+margin: 0 10px 0 0;
+}
+.menu-principal li a {
+color:#2E2B2A;
+text-decoration: none;
+display: block;
+}
+.menu-principal li ul {
+display: none;
+position: absolute;
+padding: 1%;
+}
+.menu-principal li:hover ul{
+display:block;
+}
+.menu-principal li ul li{
+display: block;
+background-color: white;
+padding: 4px;
+}
+.menu-principal li a:hover {
+color: #995B5B;
+font-weight:bold;
+}
+@media all and (max-width:523px) {
+	.minilogo {
+		padding-left: 9px;
+	}
+	.primera-lista {
+		margin-bottom: 8px;
+		}
+	.palabraequipo {
+		padding-right: 200px;
+	}
+}
+@media all and (max-width:460px) {
+	.palabraequipo {
+		padding-right:150px;
+	}
+}
+@media all and (max-width:400px) {
+	.palabraequipo {
+		padding-right:100px;
+	}
+}
+@media all and (max-width:353px) {
+	.palabraequipo {
+		padding-right:10px;
+	}
+}
+
+
+/*ANTIGUA CABECERA
+title header
 .fixedTitle {
 	width: 100%;
 	height: 90px;
@@ -18,8 +102,7 @@ body {
 	top: 0;
 	right: 0;
 	display: flex;
-}
-
+}*/
 h1, h2 {
 	margin-left: auto;
 	margin-right: auto;
