@@ -1,9 +1,10 @@
 body {
-	font-family:'Catamaran', 'Arial';
-  font-size: 18px;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
 	background-color: #f0f0ee;
 	color:#000;
 	margin:0;
+	padding: 0;
 	box-sizing: border-box;
 }
 /*CABECERA FIJA*/
