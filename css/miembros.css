@@ -17,7 +17,7 @@ background: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
+height: 90px;
 }
 .minilogo {
 	padding-left: 3.2px;
@@ -239,11 +239,18 @@ color: #995B5B;
 font-weight:bold;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 9296b13a76dc3355e11267d8979c9f866a10faf3
 	.container-bio {
 		text-align: center;
 		margin: 4% 7% 3% 7%;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9296b13a76dc3355e11267d8979c9f866a10faf3
 .logo-adalab-cell {
 	background-color: white;
 	width: 10em;
@@ -270,3 +277,8 @@ font-weight:bold;
 	flex-direction: column;
 	font-size: .8em;
 }
+<<<<<<< HEAD
+
+}
+=======
+>>>>>>> 9296b13a76dc3355e11267d8979c9f866a10faf3
