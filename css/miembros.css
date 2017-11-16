@@ -239,12 +239,11 @@ color: #995B5B;
 font-weight:bold;
 }
 
-<<<<<<< HEAD
+
 	.container-bio {
 		text-align: center;
 		margin: 4% 7% 3% 7%;
-
-=======
+}
 .logo-adalab-cell {
 	background-color: white;
 	width: 10em;
@@ -270,6 +269,4 @@ font-weight:bold;
 .list-footer {
 	flex-direction: column;
 	font-size: .8em;
-}
->>>>>>> 3e111a8e0c5dde1b02cd152202cb7b0ad3e8c9d8
 }
