@@ -10,7 +10,7 @@ font-size: 18px;
 /*CABECERA*/
 .cabecera-full  {
 text-align: center;
-margin-top:3em;
+margin-top:3.6em;
 background-color: #fff;
 }
 .logo-cabecera {
@@ -84,14 +84,15 @@ color: #650707;
 .minilogo:hover {
 	opacity: 0.5;
 }
-@media all and (max-width:371px) {
+@media all and (max-width:407px) {
 	.cabecera-full {
-		margin-top: 60px;
+		margin-top: 85px;
 	}
 	.minilogo {
 		padding-left: 9px;
 	}
 	.primera-lista {
+		text-align: right;
 		margin-bottom: 8px;
 	}
 }
@@ -170,6 +171,17 @@ margin: 30px 20px 30px;
 background-color: #F1F0EB;
 padding-top: 5px;
 padding-bottom: 5px;
+position: relative;
+}
+.idencomun{
+	position: absolute;
+	top: -100px;
+	left: 0;
+}
+.idFD {
+	position: absolute;
+	top: -100px;
+	left:0;
 }
 .title-2 {
 	border-right: 5px;

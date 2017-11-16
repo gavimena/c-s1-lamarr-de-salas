@@ -72,22 +72,25 @@ font-weight:bold;
 		margin-bottom: 8px;
 		}
 	.palabraequipo {
-		padding-right: 200px;
+		padding-left: 200px;
 	}
+	.primera-lista {
+		text-align: right;
+}
 }
 @media all and (max-width:460px) {
 	.palabraequipo {
-		padding-right:150px;
+		padding-left:150px;
 	}
 }
 @media all and (max-width:400px) {
 	.palabraequipo {
-		padding-right:100px;
+		padding-left:100px;
 	}
 }
 @media all and (max-width:353px) {
 	.palabraequipo {
-		padding-right:10px;
+		padding-left:20px;
 	}
 }
 
@@ -236,12 +239,11 @@ color: #995B5B;
 font-weight:bold;
 }
 
-<<<<<<< HEAD
+
 	.container-bio {
 		text-align: center;
 		margin: 4% 7% 3% 7%;
-
-=======
+}
 .logo-adalab-cell {
 	background-color: white;
 	width: 10em;
@@ -267,6 +269,4 @@ font-weight:bold;
 .list-footer {
 	flex-direction: column;
 	font-size: .8em;
-}
->>>>>>> 3e111a8e0c5dde1b02cd152202cb7b0ad3e8c9d8
 }
