@@ -11,7 +11,10 @@ background: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34bff5a6a4f7938427f3a0d3aab3c7070eceab00
 }
 .minilogo {
 	padding-left: 3.2px;
@@ -127,6 +130,7 @@ p, li {
 	align-items: center;
 	justify-content: space-around;
 	border-radius: 4px;
+	margin-top: 67px;
 }
 
 /*text container*/
