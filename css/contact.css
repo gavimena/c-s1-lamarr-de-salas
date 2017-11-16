@@ -4,9 +4,6 @@ body {
 	height: 100vh;
 font-size: 18px;
 }
-main {
-	flex: 1;
-}
 .section-title-form{
 color: #CA7173;
 }
