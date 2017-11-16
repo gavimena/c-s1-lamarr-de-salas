@@ -107,7 +107,7 @@ p, li {
 	flex-wrap: nowrap;
 	background-color: #ca7173;
 	color: #2e2b2a;
-	height: 600px;
+	height: auto;
 	width: 100%;
 	align-items: center;
 	justify-content: space-around;
@@ -120,6 +120,7 @@ p, li {
 	background-color: rgba(240, 240, 238, 0.4);
 	width: 450px;
 	border-radius: 4px;
+	padding-top: 5%;
 }
 
 /*biografy container*/
@@ -163,18 +164,11 @@ p, li {
 
 @media all and (max-width:850px) {
 	.container {
-		/*display: flex;
-		flex-wrap: wrap;*/
 		flex-direction: column-reverse;
-		/*background-color: #640707;
-		color: #f0f0ee;
-		height: 600px;
-		align-items: center;
-		border-radius: 4px;*/
 	}
 
 	p {
-		font-size: .9em;
+		font-size: 1.5em;
 	}
 
 	h1 {
