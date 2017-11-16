@@ -5,6 +5,12 @@ background-color: #E5E3DD;
 color: #2E2B2A;
 font-family: 'Catamaran', sans-serif;
 font-size: 18px;
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+main {
+	flex: 1;
 }
 
 /*CABECERA*/
