@@ -1,12 +1,99 @@
 body {
-	font-family:'Catamaran', 'Arial';
-  font-size: 18px;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
 	background-color: #f0f0ee;
 	color:#000;
-	margin-top: 90px;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*CABECERA FIJA*/
+.menu-principal{
+position: fixed;
+z-index: 10000;
+width: 100%;
+top: 0;
+background: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.minilogo {
+	padding-left: 3.2px;
+	padding-top: 5.75px;
+}
+.minilogo:hover {
+	opacity: 0.5;
+}
+.primera-lista {
+	padding-left: 0.3em;
+}
+.palabraequipo {
+	font-size: 18px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+.menu-principal ul{
+list-style-type: none;
+}
+.menu-principal li {
+display: inline-block;
+text-align: center;
+margin: 0 10px 0 0;
+}
+.menu-principal li a {
+color:#2E2B2A;
+text-decoration: none;
+display: block;
+}
+.menu-principal li ul {
+display: none;
+position: absolute;
+padding: 1%;
+}
+.menu-principal li:hover ul{
+display:block;
+}
+.menu-principal li ul li{
+display: block;
+background-color: white;
+padding: 4px;
+}
+.menu-principal li a:hover {
+color: #995B5B;
+font-weight:bold;
+}
+@media all and (max-width:523px) {
+	.minilogo {
+		padding-left: 9px;
+	}
+	.primera-lista {
+		margin-bottom: 8px;
+		}
+	.palabraequipo {
+		padding-right: 200px;
+	}
+}
+@media all and (max-width:460px) {
+	.palabraequipo {
+		padding-right:150px;
+	}
+}
+@media all and (max-width:400px) {
+	.palabraequipo {
+		padding-right:100px;
+	}
+}
+@media all and (max-width:353px) {
+	.palabraequipo {
+		padding-right:10px;
+	}
 }
 
-/*title header*/
+
+/*ANTIGUA CABECERA
+title header
 .fixedTitle {
 	width: 100%;
 	height: 90px;
@@ -16,8 +103,7 @@ body {
 	top: 0;
 	right: 0;
 	display: flex;
-}
-
+}*/
 h1, h2 {
 	margin-left: auto;
 	margin-right: auto;
@@ -40,6 +126,7 @@ p, li {
 	background-color: #640707;
 	color: #f0f0ee;
 	height: 600px;
+	width: 100%;
 	align-items: center;
 	justify-content: space-around;
 	border-radius: 4px;
@@ -67,7 +154,7 @@ p, li {
 
 .photo-bio {
     width: 90%;
-		
+		padding: 5%;
 }
 
 .roles {
@@ -90,14 +177,14 @@ p, li {
 
 @media all and (max-width:850px) {
 	.container {
-		display: flex;
-		flex-wrap: wrap;
+		/*display: flex;
+		flex-wrap: wrap;*/
 		flex-direction: column-reverse;
-		background-color: #640707;
+		/*background-color: #640707;
 		color: #f0f0ee;
 		height: 600px;
 		align-items: center;
-		border-radius: 4px;
+		border-radius: 4px;*/
 	}
 
 	p {
@@ -111,5 +198,72 @@ p, li {
 	.flexContainerText {
 		width: 350px;
 	}
+}
 
+
+/* FOOTER*/
+
+
+.footer {
+	display: flex;
+	padding: 20px 30px 20px 0px;
+	background-color: #665B58;
+	color: #E5E3DD;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0px 0px 0px;
+	height: 70px;
+}
+.list-footer {
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	width: 35em;
+	padding: 0em 2em 0em 0em;
+}
+.list-footer li {
+	margin-left: 10%;
+}
+.list-footer li a {
+color: white;
+text-decoration: none;
+display: block;
+}
+.list-footer li a:hover {
+color: #995B5B;
+font-weight:bold;
+}
+
+
+	.container-bio {
+		text-align: center;
+		margin: 4% 7% 3% 7%;
+}
+.logo-adalab-cell {
+	background-color: white;
+	width: 10em;
+	min-width: 100px;
+}
+.link-footer {
+	color: #E5E3DD;
+	width: 100%;
+	position: relative;
+}
+.logo-adalab {
+	width: 100%;
+}
+.line-footer {
+	background-color: black;
+	color: #E5E3DD;
+	display: block;
+	height: 25px;
+	margin-top: 0px;
+}
+
+@media all and (max-width: 440px){
+.list-footer {
+	flex-direction: column;
+	font-size: .8em;
 }
