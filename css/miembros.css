@@ -72,22 +72,25 @@ font-weight:bold;
 		margin-bottom: 8px;
 		}
 	.palabraequipo {
-		padding-right: 200px;
+		padding-left: 200px;
 	}
+	.primera-lista {
+		text-align: right;
+}
 }
 @media all and (max-width:460px) {
 	.palabraequipo {
-		padding-right:150px;
+		padding-left:150px;
 	}
 }
 @media all and (max-width:400px) {
 	.palabraequipo {
-		padding-right:100px;
+		padding-left:100px;
 	}
 }
 @media all and (max-width:353px) {
 	.palabraequipo {
-		padding-right:10px;
+		padding-left:20px;
 	}
 }
 
