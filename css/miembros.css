@@ -180,44 +180,6 @@ p, li {
 	}
 }
 
-
-/* FOOTER*/
-
-
-/*.footer {
-	display: flex;
-	padding: 20px 30px 20px 0px;
-	background-color: #665B58;
-	color: #E5E3DD;
-	position: relative;
-	align-items: center;
-	justify-content: space-between;
-	margin: 20px 0px 0px 0px;
-	height: 70px;
-}
-.list-footer {
-	display: flex;
-	list-style: none;
-	justify-content: flex-start;
-	flex-wrap: nowrap;
-	width: 35em;
-	padding: 0em 2em 0em 0em;
-}
-.list-footer li {
-	margin-left: 10%;
-}
-.list-footer li a {
-color: white;
-text-decoration: none;
-display: block;
-}
-.list-footer li a:hover {
-color: #995B5B;
-font-weight:bold;
-<<<<<<< HEAD
-}*/
-
-
 .container-bio {
 		text-align: center;
 		/*margin: 4% 7% 3% 7%;*/
