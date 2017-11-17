@@ -176,7 +176,7 @@ color:#2E2B2A;
 margin: 30px 8% 30px;
 background-color: #F1F0EB;
 padding: 5px 30px 5px 30px;
-
+border-radius: 4px;
 position: relative;
 text-align: justify;
 }
@@ -254,6 +254,7 @@ font-weight:bold;
 	background-color: white;
 	width: 10em;
 	min-width: 100px;
+	border-radius: 10px;
 }
 .link-footer {
 	color: #E5E3DD;
