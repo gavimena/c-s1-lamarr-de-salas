@@ -35,11 +35,11 @@ align-items: center;
 justify-content: space-between;
 }
 .minilogo {
-	padding-left: 3.2px;
+	padding-right: 8px;
 	padding-top: 5.75px;
 }
 .primera-lista {
-	padding-left: 0.3em;
+	padding-left: 12px;
 }
 .menu-principal ul{
 list-style-type: none;
@@ -90,18 +90,30 @@ color: #650707;
 .minilogo:hover {
 	opacity: 0.5;
 }
-@media all and (max-width:407px) {
-	.cabecera-full {
-		margin-top: 85px;
+.menu-rayas {
+	display: none;
+	position: relative;
+	left:0;
+}
+ul.rayas {
+	margin-top: 17px;
+	padding-left: 12px;
+}
+
+@media all and (max-width:420px) {
+	.menu-rayas {
+		display: inline-block;
 	}
-	.minilogo {
-		padding-left: 9px;
+	.minirayas {
+		display: inline-block;
+		left:10px;
+		top:22px;
 	}
 	.primera-lista {
-		text-align: right;
-		margin-bottom: 8px;
+		display: none;
 	}
 }
+
 
 /*SECCIÓN DE IMÁGENES 10/11*/
 
@@ -220,50 +232,43 @@ color:#CA7173;
 /*Footer*/
 .footer {
 	display: flex;
-	padding: 20px 30px 20px 0px;
 	background-color: #665B58;
 	color: #E5E3DD;
 	position: relative;
 	align-items: center;
 	justify-content: space-between;
-	margin: 20px 0px 0px 0px;
-	height: 70px;
+	height: 120px;
+	padding: 0 5% 0 1%;
 }
 .list-footer {
 	display: flex;
 	list-style: none;
-	justify-content: flex-start;
+	justify-content: space-between;
 	flex-wrap: nowrap;
-	width: 35em;
-	padding: 0em 2em 0em 0em;
-}
-.list-footer li {
-	margin-left: 10%;
+	width: 40%;
+	padding: 0;
+	margin: 0;
 }
 .list-footer li a {
 color: white;
 text-decoration: none;
 display: block;
+padding: 0 0 0 15%;
 }
 .list-footer li a:hover {
 color: #995B5B;
-font-weight:bold;
-}
-
-.logo-adalab-cell {
-	background-color: white;
-	width: 10em;
-	min-width: 100px;
-	border-radius: 10px;
-}
-.link-footer {
-	color: #E5E3DD;
-	width: 100%;
-	position: relative;
+font-weight: bold;
+padding: 0 0 0 15%;
 }
 .logo-adalab {
-	width: 100%;
+	display: block;
+	background-color: white;
+	width: 75%;
+	min-width: 100px;
+	border-radius: 10px;
+	margin: 0 0 0 25%;
 }
+
 .line-footer {
 	background-color: black;
 	color: #E5E3DD;
