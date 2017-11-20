@@ -101,6 +101,11 @@ p, li {
 	margin: 17px;
 }
 
+.twitterLogoOver, .linkedinLinkOver {
+	display: none;
+}
+
+
 /*bio and photo container*/
 .container {
 	display: flex;
@@ -117,7 +122,6 @@ p, li {
 
 /*text container*/
 .flexContainerText {
-
 	background-color: rgba(240, 240, 238, 0.4);
 	width: 450px;
 	border-radius: 4px;
@@ -158,27 +162,41 @@ p, li {
 	justify-content: center;
 }
 
+/*.twitterLink img {
+	background: url('images/twitterLogo.png');
+}
+
+.twitterLink img:hover {
+  background: url('images/twitterLogoOver.png');
+}*/
+
 .resumenBio {
 	text-align: center;
 	padding-left: 7px;
 	padding-right: 14px;
 }
 
-@media all and (max-width:850px) {
+@media all and (max-width:900px) {
 	.container {
 		flex-direction: column-reverse;
 	}
 
-	p {
-		font-size: 1.5em;
+	p, li {
+		font-size: 1.3em;
+		line-height: 32px;
 	}
 
 	h1 {
 		font-size: 30px;
 	}
 
+	h4 {
+		font-size: 20px;
+	}
+
 	.flexContainerText {
 		width: 350px;
+		margin-bottom: 15px;
 	}
 }
 
@@ -186,3 +204,16 @@ p, li {
 		text-align: center;
 		/*margin: 4% 7% 3% 7%;*/
 	}
+@media all and (max-width:500px) {
+	ul {
+		padding-left: 15px;
+	}
+
+	.twitterLinkOver, .linkedinLinkOver {
+		display: inline;
+	}
+
+	.twitterLink, .linkedinLink {
+		display: none;
+	}
+}
