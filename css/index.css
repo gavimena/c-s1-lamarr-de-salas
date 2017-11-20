@@ -253,12 +253,12 @@ color:#CA7173;
 color: white;
 text-decoration: none;
 display: block;
-padding: 0 0 0 15%;
+/*padding: 0 0 0 15%;*/
 }
 .list-footer li a:hover {
 color: #995B5B;
 font-weight: bold;
-padding: 0 0 0 15%;
+/*padding: 0 0 0 15%;*/
 }
 .logo-adalab {
 	display: block;
