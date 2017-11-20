@@ -35,11 +35,11 @@ align-items: center;
 justify-content: space-between;
 }
 .minilogo {
-	padding-left: 3.2px;
+	padding-right: 8px;
 	padding-top: 5.75px;
 }
 .primera-lista {
-	padding-left: 0.3em;
+	padding-left: 12px;
 }
 .menu-principal ul{
 list-style-type: none;
@@ -90,18 +90,30 @@ color: #650707;
 .minilogo:hover {
 	opacity: 0.5;
 }
-@media all and (max-width:407px) {
-	.cabecera-full {
-		margin-top: 85px;
+.menu-rayas {
+	display: none;
+	position: relative;
+	left:0;
+}
+ul.rayas {
+	margin-top: 17px;
+	padding-left: 12px;
+}
+
+@media all and (max-width:420px) {
+	.menu-rayas {
+		display: inline-block;
 	}
-	.minilogo {
-		padding-left: 9px;
+	.minirayas {
+		display: inline-block;
+		left:10px;
+		top:22px;
 	}
 	.primera-lista {
-		text-align: right;
-		margin-bottom: 8px;
+		display: none;
 	}
 }
+
 
 /*SECCIÓN DE IMÁGENES 10/11*/
 
