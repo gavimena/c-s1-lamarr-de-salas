@@ -85,7 +85,7 @@ font-weight:bold;
 		padding-left:20px;
 	}
 }
-
+/*Empiezan las secciones*/
 h1, h2 {
 	margin-left: auto;
 	margin-right: auto;
@@ -117,10 +117,12 @@ p, li {
 
 /*text container*/
 .flexContainerText {
+
 	background-color: rgba(240, 240, 238, 0.4);
 	width: 450px;
 	border-radius: 4px;
-	padding-top: 5%;
+	padding: 0% 5% 1%;
+
 }
 
 /*biografy container*/
