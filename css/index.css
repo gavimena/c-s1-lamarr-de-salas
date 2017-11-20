@@ -220,25 +220,20 @@ color:#CA7173;
 /*Footer*/
 .footer {
 	display: flex;
-	padding: 20px 30px 20px 0px;
 	background-color: #665B58;
 	color: #E5E3DD;
 	position: relative;
 	align-items: center;
 	justify-content: space-between;
-	margin: 20px 0px 0px 0px;
-	height: 70px;
+	height: 120px;
 }
 .list-footer {
 	display: flex;
 	list-style: none;
-	justify-content: flex-start;
+	justify-content: space-around;
 	flex-wrap: nowrap;
-	width: 35em;
-	padding: 0em 2em 0em 0em;
-}
-.list-footer li {
-	margin-left: 10%;
+	width: 25em;
+	padding: 0;
 }
 .list-footer li a {
 color: white;
@@ -247,23 +242,17 @@ display: block;
 }
 .list-footer li a:hover {
 color: #995B5B;
-font-weight:bold;
+font-weight: bold;
 }
-
-.logo-adalab-cell {
+.logo-adalab {
+	display: block;
 	background-color: white;
 	width: 10em;
 	min-width: 100px;
 	border-radius: 10px;
+	margin-right: 2em;
 }
-.link-footer {
-	color: #E5E3DD;
-	width: 100%;
-	position: relative;
-}
-.logo-adalab {
-	width: 100%;
-}
+
 .line-footer {
 	background-color: black;
 	color: #E5E3DD;
