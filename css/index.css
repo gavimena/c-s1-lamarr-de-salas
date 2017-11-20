@@ -226,31 +226,35 @@ color:#CA7173;
 	align-items: center;
 	justify-content: space-between;
 	height: 120px;
+	padding: 0 5% 0 1%;
 }
 .list-footer {
 	display: flex;
 	list-style: none;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: nowrap;
-	width: 25em;
+	width: 40%;
 	padding: 0;
+	margin: 0;
 }
 .list-footer li a {
 color: white;
 text-decoration: none;
 display: block;
+padding: 0 0 0 15%;
 }
 .list-footer li a:hover {
 color: #995B5B;
 font-weight: bold;
+padding: 0 0 0 15%;
 }
 .logo-adalab {
 	display: block;
 	background-color: white;
-	width: 10em;
+	width: 75%;
 	min-width: 100px;
 	border-radius: 10px;
-	margin-right: 2em;
+	margin: 0 0 0 25%;
 }
 
 .line-footer {
