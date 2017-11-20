@@ -45,6 +45,7 @@ p, li {
 	width: 450px;
 	border-radius: 4px;
 	padding: 0% 5% 1%;
+	margin-left: 3%;
 
 }
 
@@ -65,8 +66,9 @@ p, li {
 }
 
 .photo-bio {
-    width: 90%;
-		padding: 5%;
+  width: 90%;
+	padding: 5%;
+	margin-right: 3%;
 }
 
 .roles {

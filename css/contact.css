@@ -23,6 +23,16 @@ text-align: center;
 .form-child {
 	width: 75%;
 }
+@media all and (min-width:500px) {
+	.form-child{
+		width: 60%;
+	}
+}
+@media all and (min-width:700px) {
+	.form-child{
+		width: 40%;
+	}
+}
 input, textarea{
 border-radius: 5px;
 border: none;
