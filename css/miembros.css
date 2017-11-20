@@ -20,7 +20,7 @@ p, li {
 	margin: 17px;
 }
 
-.twitterLogoOver, .linkedinLinkOver {
+.twitterLinkOver, .linkedinLinkOver, .githubLinkOver {
 	display: none;
 }
 
@@ -81,14 +81,6 @@ p, li {
 	justify-content: center;
 }
 
-/*.twitterLink img {
-	background: url('images/twitterLogo.png');
-}
-
-.twitterLink img:hover {
-  background: url('images/twitterLogoOver.png');
-}*/
-
 .resumenBio {
 	text-align: center;
 	padding-left: 7px;
@@ -101,7 +93,7 @@ p, li {
 	}
 
 	p, li {
-		font-size: 1.3em;
+		font-size: 1em;
 		line-height: 32px;
 	}
 
@@ -123,16 +115,17 @@ p, li {
 		text-align: center;
 		/*margin: 4% 7% 3% 7%;*/
 	}
+
 @media all and (max-width:500px) {
 	ul {
 		padding-left: 15px;
 	}
 
-	.twitterLinkOver, .linkedinLinkOver {
+	.twitterLinkOver, .linkedinLinkOver, .githubLinkOver {
 		display: inline;
 	}
 
-	.twitterLink, .linkedinLink {
+	.twitterLink, .linkedinLink, .githubLink {
 		display: none;
 	}
 }
