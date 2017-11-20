@@ -253,7 +253,9 @@ color:#CA7173;
 color: white;
 text-decoration: none;
 display: block;
-/*padding: 0 0 0 15%;*/
+}
+.list-footer li:last-child {
+margin-left: 20%;
 }
 .list-footer li a:hover {
 color: #995B5B;
@@ -284,5 +286,8 @@ font-weight: bold;
 .list-footer {
 	flex-direction: column;
 	font-size: .8em;
+}
+.list-footer li:last-child {
+margin-left: 0;
 }
 }
