@@ -4,17 +4,17 @@
 	color: #995B5B;
 	font-weight:bold;
 }
+
 /*Empiezan las secciones*/
 h1, h2 {
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	text-align: center;
 }
 
 p, li {
 	text-align: justify;
 }
-
 
 .links-to-sn a {
 	margin: 17px;
@@ -23,7 +23,6 @@ p, li {
 .twitterLinkOver, .linkedinLinkOver, .githubLinkOver {
 	display: none;
 }
-
 
 /*bio and photo container*/
 .container {
@@ -42,10 +41,10 @@ p, li {
 /*text container*/
 .flexContainerText {
 	background-color: rgba(240, 240, 238, 0.4);
-	width: 450px;
+	width: 40%;
 	border-radius: 4px;
-	padding: 0% 5% 1%;
-	margin-left: 3%;
+	/*padding: 0% 5% 1%;*/
+	/*margin-left: 3%;*/
 
 }
 
@@ -85,8 +84,8 @@ p, li {
 
 .resumenBio {
 	text-align: center;
-	padding-left: 7px;
-	padding-right: 14px;
+	padding: 10px;
+	/*padding-right: 14px;*/
 }
 
 @media all and (max-width:900px) {
@@ -108,7 +107,7 @@ p, li {
 	}
 
 	.flexContainerText {
-		width: 350px;
+		width: 50%;
 		margin-bottom: 15px;
 	}
 }
@@ -123,6 +122,10 @@ p, li {
 		padding-left: 15px;
 	}
 
+	resumenBio {
+		/*padding: 10%;*/
+	}
+
 	.twitterLinkOver, .linkedinLinkOver, .githubLinkOver {
 		display: inline;
 	}
@@ -130,4 +133,7 @@ p, li {
 	.twitterLink, .linkedinLink, .githubLink {
 		display: none;
 	}
+
+	.flexContainerText {
+		width: 80%;
 }
