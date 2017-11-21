@@ -46,7 +46,6 @@ list-style-type: none;
 }
 .menu-principal li {
 display: inline-block;
-text-align: center;
 margin: 0 10px 0 0;
 }
 .menu-principal li a {
@@ -131,7 +130,7 @@ ul.rayas {
 	margin: 0;
 
 }
-.resumen h4{
+.resumen h2{
 color: #CA7173;
 
 }
