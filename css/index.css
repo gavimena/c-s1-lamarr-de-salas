@@ -92,20 +92,19 @@ color: #650707;
 }
 .menu-rayas {
 	display: none;
-	position: relative;
-	left:0;
+}
+.menu-rayas ul li {
+	text-align: left;
 }
 ul.rayas {
 	margin-top: 17px;
 	padding-left: 12px;
 }
-
 @media all and (max-width:420px) {
 	.menu-rayas {
 		display: inline-block;
 	}
 	.minirayas {
-		display: inline-block;
 		left:10px;
 		top:22px;
 	}
