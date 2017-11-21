@@ -11,7 +11,8 @@ h1, h2 {
 	text-align: center;
 }
 
-p, li {
+.main-miembros p,
+.main-miembros li {
 	text-align: justify;
 }
 
