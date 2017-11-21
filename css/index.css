@@ -45,14 +45,13 @@ justify-content: space-between;
 list-style-type: none;
 }
 .menu-principal li {
-display: inline-block;
-text-align: center;
+display: inline;
 margin: 0 10px 0 0;
 }
 .menu-principal li a {
 color:#2E2B2A;
 text-decoration: none;
-display: block;
+
 }
 .menu-principal li ul {
 display: none;
@@ -102,7 +101,7 @@ ul.rayas {
 }
 @media all and (max-width:420px) {
 	.menu-rayas {
-		display: inline-block;
+		display: inline;
 	}
 	.minirayas {
 		left:10px;
